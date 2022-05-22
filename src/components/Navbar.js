@@ -7,16 +7,18 @@ import Logo from '../assets/mylogo.png';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 
+
+
 export default function Navbar() {
 	const [ isNavOpen, setisNavOpen ] = useState(false);
 	const [ isiconNavOpen, setisiconNavOpen ] = useState(false);
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10">
 			<div>
-				<img src={Logo} alt="" className=" w-[38px]" />
+				<img src={Logo} alt="" className=" w-[38px] inline" /> <h6 className='inline text-lg font-bold'>Lord_Ranchoatos</h6>
 			</div>
 			<ul className=" hidden md:flex">
-				<li className=" hover:text-pink-600 duration-300">
+				<li className=" hover:text-pink-600 duration-500">
 					<Link to="home" smooth={true} duration={500}>
 						Home
 					</Link>
