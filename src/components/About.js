@@ -1,5 +1,5 @@
 import React from 'react';
-import Myresume from '../assets/resume.pdf';
+import Myresume from '../assets/Resume-David.pdf';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 const About = () => {
 	return (

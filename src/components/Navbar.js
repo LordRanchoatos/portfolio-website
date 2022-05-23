@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../assets/resume.pdf';
+import Resume from '../assets/Resume-David.pdf';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -141,7 +141,7 @@ export default function Navbar() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://www.linkedin.com/in/"
+							href="https://www.linkedin.com/in/david-atolagbe-271b72222/"
 							className="flex justify-between items-center w-full text-gray-300"
 						>
 							Linkedin <FaLinkedin size={30} />
@@ -151,7 +151,7 @@ export default function Navbar() {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://www.github.com/"
+							href="https://github.com/LordRanchoatos"
 							className="flex justify-between items-center w-full text-gray-300"
 						>
 							Github <FaGithub size={30} />
@@ -180,7 +180,7 @@ export default function Navbar() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://www.linkedin.com/in/"
+						href="https://www.linkedin.com/in/david-atolagbe-271b72222/"
 						className="flex justify-between mt-2 items-center w-full text-gray-300 rounded-[50%] bg-blue-600 p-3"
 					>
 						<FaLinkedin size={20} />
@@ -188,7 +188,7 @@ export default function Navbar() {
 					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://www.github.com/"
+						href="https://github.com/LordRanchoatos"
 						className="flex justify-between mt-2 items-center w-full text-gray-300 rounded-[50%] bg-[#333] p-3"
 					>
 						<FaGithub size={20} />
